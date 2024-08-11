@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        #name {
+
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+    <label for="name">Name</label>
+    <input type="text" id="name" placeholder="fullname">
+    <br><br>
+    <label for="num">Phone-No</label>
+    <input type="number" id="num" placeholder="Phone-No" max="99">
+    <br><br>
+    <label for="date">Date of Birth</label>
+    <input type="date" id="date" placeholder="Date of Birth">
+    <br><br>
+    <label for="pass">Password <span style="color: red; font-size: 15px;"></span></label>
+    <input type="password" id="pass" required placeholder="password">
+    <br><br>
+    <label for="mail">Email</label>
+    <input type="email" id="mail" placeholder="email">
+    <br><br>
+    <label> gender:</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">male</label>
+    <input type="radio" name="gender" id="female" value="female">
+    <label for="female">female</label>
+    <input type="radio" name="gender" id="others" value="others">
+    <label for="others">others</label>
+    <br><br>
+
+    <label for="lang">language</label>
+    <input type="checkbox" name="language" id="eng" value="english">
+    <label for="eng">English</label>
+    <input type="checkbox" name="language" id="hin" value="Hindi">
+    <label for="hin">Hindi</label>
+    <input type="checkbox" name="language" id="beng" value="Bengali">
+    <label for="beng">Bengali</label>
+    <input type="checkbox" name="language" checked id="tam" value="Tamil">
+    <label for="tam">Tamil</label>
+     <br><br>
+
+     <label for="count">Country</label>
+     <select id="count">
+        <option selected disabled>Please select a Country</option>
+        <option value="India">India</option>
+        <option value="Australia">Australia</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Egypt">Egypt</option>
+     </select>
+     <br><br>
+
+     <button> submit-btn</button>
+     <input type="submit" value="submit-inp">
+     <input type="reset" value="respect">
+    </form>
+     
+</body>
+</html>
